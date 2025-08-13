@@ -7,7 +7,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from functools import wraps
 
 app = Flask(__name__)
-app.secret_key = "supersecretkey"  
+app.secret_key = "eowrjhoej9302ojagjirga435tdsfg"
 DB_NAME = "users.db"
 
 # ------------------- Database Setup -------------------
